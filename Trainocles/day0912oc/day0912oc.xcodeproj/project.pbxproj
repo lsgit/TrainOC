@@ -11,6 +11,8 @@
 		C2D6C43019C29FFC0068C5F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C42F19C29FFC0068C5F4 /* main.m */; };
 		C2D6C43419C29FFC0068C5F4 /* day0912oc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2D6C43319C29FFC0068C5F4 /* day0912oc.1 */; };
 		C2D6C43C19C2A1610068C5F4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C43B19C2A1610068C5F4 /* Person.m */; };
+		C2D6C43F19C2C8250068C5F4 /* AudiClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C43E19C2C8250068C5F4 /* AudiClass.m */; };
+		C2D6C44219C2CAF70068C5F4 /* MobilePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C44119C2CAF70068C5F4 /* MobilePhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		C2D6C43319C29FFC0068C5F4 /* day0912oc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = day0912oc.1; sourceTree = "<group>"; };
 		C2D6C43A19C2A1610068C5F4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		C2D6C43B19C2A1610068C5F4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C2D6C43D19C2C8250068C5F4 /* AudiClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudiClass.h; sourceTree = "<group>"; };
+		C2D6C43E19C2C8250068C5F4 /* AudiClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudiClass.m; sourceTree = "<group>"; };
+		C2D6C44019C2CAF70068C5F4 /* MobilePhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobilePhone.h; path = ../MobilePhone.h; sourceTree = "<group>"; };
+		C2D6C44119C2CAF70068C5F4 /* MobilePhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MobilePhone.m; path = ../MobilePhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +82,14 @@
 		C2D6C42E19C29FFC0068C5F4 /* day0912oc */ = {
 			isa = PBXGroup;
 			children = (
+				C2D6C44019C2CAF70068C5F4 /* MobilePhone.h */,
+				C2D6C44119C2CAF70068C5F4 /* MobilePhone.m */,
 				C2D6C42F19C29FFC0068C5F4 /* main.m */,
 				C2D6C43A19C2A1610068C5F4 /* Person.h */,
 				C2D6C43B19C2A1610068C5F4 /* Person.m */,
 				C2D6C43319C29FFC0068C5F4 /* day0912oc.1 */,
+				C2D6C43D19C2C8250068C5F4 /* AudiClass.h */,
+				C2D6C43E19C2C8250068C5F4 /* AudiClass.m */,
 				C2D6C43119C29FFC0068C5F4 /* Supporting Files */,
 			);
 			path = day0912oc;
@@ -146,6 +156,8 @@
 			files = (
 				C2D6C43C19C2A1610068C5F4 /* Person.m in Sources */,
 				C2D6C43019C29FFC0068C5F4 /* main.m in Sources */,
+				C2D6C44219C2CAF70068C5F4 /* MobilePhone.m in Sources */,
+				C2D6C43F19C2C8250068C5F4 /* AudiClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +271,7 @@
 				C2D6C43919C29FFC0068C5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

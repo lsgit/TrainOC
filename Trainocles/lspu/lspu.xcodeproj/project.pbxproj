@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C207221A19D0235900615E9A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C207221919D0235900615E9A /* Cocoa.framework */; };
+		C207222419D0235900615E9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C207222219D0235900615E9A /* InfoPlist.strings */; };
+		C207222D19D0248400615E9A /* VVmyclass.m in Sources */ = {isa = PBXBuildFile; fileRef = C207222C19D0248400615E9A /* VVmyclass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C207221619D0235900615E9A /* lspu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lspu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C207221919D0235900615E9A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C207221C19D0235900615E9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C207221D19D0235900615E9A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C207221E19D0235900615E9A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C207222119D0235900615E9A /* lspu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lspu-Info.plist"; sourceTree = "<group>"; };
+		C207222319D0235900615E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C207222519D0235900615E9A /* lspu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lspu-Prefix.pch"; sourceTree = "<group>"; };
+		C207222B19D0248400615E9A /* VVmyclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVmyclass.h; sourceTree = "<group>"; };
+		C207222C19D0248400615E9A /* VVmyclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVmyclass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C207221319D0235900615E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C207221A19D0235900615E9A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C207220D19D0235800615E9A = {
+			isa = PBXGroup;
+			children = (
+				C207221F19D0235900615E9A /* lspu */,
+				C207221819D0235900615E9A /* Frameworks */,
+				C207221719D0235900615E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C207221719D0235900615E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C207221619D0235900615E9A /* lspu.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C207221819D0235900615E9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C207221919D0235900615E9A /* Cocoa.framework */,
+				C207221B19D0235900615E9A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C207221B19D0235900615E9A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C207221C19D0235900615E9A /* Foundation.framework */,
+				C207221D19D0235900615E9A /* CoreData.framework */,
+				C207221E19D0235900615E9A /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C207221F19D0235900615E9A /* lspu */ = {
+			isa = PBXGroup;
+			children = (
+				C207222019D0235900615E9A /* Supporting Files */,
+			);
+			path = lspu;
+			sourceTree = "<group>";
+		};
+		C207222019D0235900615E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C207222119D0235900615E9A /* lspu-Info.plist */,
+				C207222219D0235900615E9A /* InfoPlist.strings */,
+				C207222519D0235900615E9A /* lspu-Prefix.pch */,
+				C207222B19D0248400615E9A /* VVmyclass.h */,
+				C207222C19D0248400615E9A /* VVmyclass.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C207221519D0235900615E9A /* lspu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C207222819D0235900615E9A /* Build configuration list for PBXNativeTarget "lspu" */;
+			buildPhases = (
+				C207221219D0235900615E9A /* Sources */,
+				C207221319D0235900615E9A /* Frameworks */,
+				C207221419D0235900615E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lspu;
+			productName = lspu;
+			productReference = C207221619D0235900615E9A /* lspu.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C207220E19D0235800615E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Liushuai;
+			};
+			buildConfigurationList = C207221119D0235800615E9A /* Build configuration list for PBXProject "lspu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C207220D19D0235800615E9A;
+			productRefGroup = C207221719D0235900615E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C207221519D0235900615E9A /* lspu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C207221419D0235900615E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C207222419D0235900615E9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C207221219D0235900615E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C207222D19D0248400615E9A /* VVmyclass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C207222219D0235900615E9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C207222319D0235900615E9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C207222619D0235900615E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C207222719D0235900615E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C207222919D0235900615E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lspu/lspu-Prefix.pch";
+				INFOPLIST_FILE = "lspu/lspu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C207222A19D0235900615E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lspu/lspu-Prefix.pch";
+				INFOPLIST_FILE = "lspu/lspu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C207221119D0235800615E9A /* Build configuration list for PBXProject "lspu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C207222619D0235900615E9A /* Debug */,
+				C207222719D0235900615E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C207222819D0235900615E9A /* Build configuration list for PBXNativeTarget "lspu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C207222919D0235900615E9A /* Debug */,
+				C207222A19D0235900615E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C207220E19D0235800615E9A /* Project object */;
+}

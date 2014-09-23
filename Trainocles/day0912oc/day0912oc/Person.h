@@ -13,8 +13,6 @@
     NSString *_name;
     int _age;
     NSString *_gender;
-    
-    
 }
 - (void)walk;
 @end

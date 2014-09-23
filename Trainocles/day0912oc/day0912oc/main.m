@@ -7,18 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "AudiClass.h"
 int main(int argc, const char * argv[])
 {
-
-    @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
-        
-        
-    }
+    AudiClass *car = [[AudiClass alloc]init];
+    [car stop];
     return 0;
 }
 

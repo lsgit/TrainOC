@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2D1883019D0290000ED4DD0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D1882F19D0290000ED4DD0 /* AppKit.framework */; };
+		C2D1883219D0290000ED4DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D1883119D0290000ED4DD0 /* Foundation.framework */; };
+		C2D1883819D0290000ED4DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2D1883619D0290000ED4DD0 /* InfoPlist.strings */; };
+		C2D1883B19D0290000ED4DD0 /* lsplugin1.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D1883A19D0290000ED4DD0 /* lsplugin1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2D1882C19D0290000ED4DD0 /* lsplugin1.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lsplugin1.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D1882F19D0290000ED4DD0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C2D1883119D0290000ED4DD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2D1883519D0290000ED4DD0 /* lsplugin1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lsplugin1-Info.plist"; sourceTree = "<group>"; };
+		C2D1883719D0290000ED4DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2D1883919D0290000ED4DD0 /* lsplugin1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lsplugin1.h; sourceTree = "<group>"; };
+		C2D1883A19D0290000ED4DD0 /* lsplugin1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lsplugin1.m; sourceTree = "<group>"; };
+		C2D1883C19D0290000ED4DD0 /* lsplugin1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lsplugin1-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D1882919D0290000ED4DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D1883019D0290000ED4DD0 /* AppKit.framework in Frameworks */,
+				C2D1883219D0290000ED4DD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2D1882319D028FF00ED4DD0 = {
+			isa = PBXGroup;
+			children = (
+				C2D1883319D0290000ED4DD0 /* lsplugin1 */,
+				C2D1882E19D0290000ED4DD0 /* Frameworks */,
+				C2D1882D19D0290000ED4DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D1882D19D0290000ED4DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1882C19D0290000ED4DD0 /* lsplugin1.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D1882E19D0290000ED4DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1882F19D0290000ED4DD0 /* AppKit.framework */,
+				C2D1883119D0290000ED4DD0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2D1883319D0290000ED4DD0 /* lsplugin1 */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1883919D0290000ED4DD0 /* lsplugin1.h */,
+				C2D1883A19D0290000ED4DD0 /* lsplugin1.m */,
+				C2D1883419D0290000ED4DD0 /* Supporting Files */,
+			);
+			path = lsplugin1;
+			sourceTree = "<group>";
+		};
+		C2D1883419D0290000ED4DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1883519D0290000ED4DD0 /* lsplugin1-Info.plist */,
+				C2D1883619D0290000ED4DD0 /* InfoPlist.strings */,
+				C2D1883C19D0290000ED4DD0 /* lsplugin1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D1882B19D0290000ED4DD0 /* lsplugin1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D1883F19D0290000ED4DD0 /* Build configuration list for PBXNativeTarget "lsplugin1" */;
+			buildPhases = (
+				C2D1882819D0290000ED4DD0 /* Sources */,
+				C2D1882919D0290000ED4DD0 /* Frameworks */,
+				C2D1882A19D0290000ED4DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lsplugin1;
+			productName = lsplugin1;
+			productReference = C2D1882C19D0290000ED4DD0 /* lsplugin1.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D1882419D028FF00ED4DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Liushuai;
+			};
+			buildConfigurationList = C2D1882719D028FF00ED4DD0 /* Build configuration list for PBXProject "lsplugin1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2D1882319D028FF00ED4DD0;
+			productRefGroup = C2D1882D19D0290000ED4DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D1882B19D0290000ED4DD0 /* lsplugin1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2D1882A19D0290000ED4DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D1883819D0290000ED4DD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D1882819D0290000ED4DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D1883B19D0290000ED4DD0 /* lsplugin1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2D1883619D0290000ED4DD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D1883719D0290000ED4DD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2D1883D19D0290000ED4DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2D1883E19D0290000ED4DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2D1884019D0290000ED4DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lsplugin1/lsplugin1-Prefix.pch";
+				INFOPLIST_FILE = "lsplugin1/lsplugin1-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		C2D1884119D0290000ED4DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lsplugin1/lsplugin1-Prefix.pch";
+				INFOPLIST_FILE = "lsplugin1/lsplugin1-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D1882719D028FF00ED4DD0 /* Build configuration list for PBXProject "lsplugin1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D1883D19D0290000ED4DD0 /* Debug */,
+				C2D1883E19D0290000ED4DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D1883F19D0290000ED4DD0 /* Build configuration list for PBXNativeTarget "lsplugin1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D1884019D0290000ED4DD0 /* Debug */,
+				C2D1884119D0290000ED4DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2D1882419D028FF00ED4DD0 /* Project object */;
+}
