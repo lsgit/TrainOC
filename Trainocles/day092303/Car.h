@@ -7,12 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class Engine;
 @interface Car : NSObject
-{
-    NSString *_color;
-    Engine *_engine;
-    int _prize;
-}
 - (NSString *)description;
+@property(nonatomic,assign)int prize; 
 @end

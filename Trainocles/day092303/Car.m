@@ -11,18 +11,6 @@
 @implementation Car
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"%@%d%@",_color,_prize,_engine];
-}
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key
-{
-    if ([key isEqualToString:@"engine"]) {
-        
-    }
-}
-- (void)setNilValueForKey:(NSString *)key
-{
-    if ([key isEqualToString:@"prize"]) {
-        _prize = 1500;
-    }
+    return [NSString stringWithFormat:@"%@%d",_color,_prize];
 }
 @end
